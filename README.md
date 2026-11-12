@@ -1,10 +1,28 @@
 # Decision Model Benchmarks
 
-Independent comparison of decision models using JEAN-inspired routing and GUI target-selection cases.
+Compare decision models on task routing and Windows UI choices using scenarios drawn from JEAN.
 
-Open [index.html](index.html) locally for the interactive dashboard. It runs in the browser without an API key. The [pinned JEAN benchmark sources](https://github.com/4Raisan/J.E.A.N./tree/c1650b055e64dde7055b9bf6d45d74331bf0e33c/tools/decision-bench) include the two case sets and the available runners. The tables record separate provider runs, so reproducing them requires access to those providers.
+[![Research date 12 November 2026](https://img.shields.io/badge/Research%20date-12%20Nov%202026-147e82)](#benchmark-method)
+[![Benchmark access: free and promotional](https://img.shields.io/badge/Benchmark%20access-Free%20and%20promotional-287547)](#benchmark-method)
+[![Expanded suite: 50 distinct cases](https://img.shields.io/badge/Expanded%20suite-50%20distinct%20cases-315da6)](#test-cases)
 
-Benchmark Rounds 1 and 2 use 14 cases each and report median API response times. The combined Round 3 results use one pass of the earlier 25 cases and one pass of the 25 practical JEAN cases. Response times exclude request pacing. GUI cases use provided control lists and simulated states. The earlier CSS routing case leaves Claude Code's effort unspecified.
+**[Download index.html](https://raw.githubusercontent.com/4Raisan/decision-model-benchmarks/main/index.html)**, save it as `index.html`, then open it in a browser. The interactive dashboard works locally without an API key.
+
+[![Round 3 comparison graph plotting response time against accuracy](output/playwright/comparison-graphs.png)](output/playwright/comparison-graphs.png)
+
+## Benchmark method
+
+The benchmarks were run on **12 November 2026** using provider free tiers, welcome credits, promotional credits, and free trials. Published input rates in the dashboard are reference prices.
+
+| Round | What we tested |
+|---|---|
+| 1 | All models in the initial lineup received the same 14 checks, with seven routing and seven GUI cases. |
+| 2 | A hand-picked group reran the same 14 checks. |
+| 3 | The table shows ten selected models. Eight have results from one pass of each 25-case suite, for 50 distinct decisions. Elephant-1 and Mammoth-1 have historical results from two passes of the earlier 25. |
+
+Rounds 1 and 2 report median API response times. Round 3 reports means for the eight combined rows and medians for the two historical rows. Timing excludes pacing and cooldowns. GUI cases use saved control lists and simulated Windows states. The earlier CSS routing case leaves Claude Code's effort unspecified.
+
+The [pinned JEAN benchmark sources](https://github.com/4Raisan/J.E.A.N./tree/c1650b055e64dde7055b9bf6d45d74331bf0e33c/tools/decision-bench) include the case sets and available runners.
 
 ## Benchmark Round 1
 
