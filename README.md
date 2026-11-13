@@ -6,7 +6,7 @@ Compare decision models on task routing and Windows UI choices using scenarios d
 [![Benchmark access: free and promotional](https://img.shields.io/badge/Benchmark%20access-Free%20and%20promotional-287547)](#benchmark-method)
 [![Expanded suite: 50 distinct cases](https://img.shields.io/badge/Expanded%20suite-50%20distinct%20cases-315da6)](#test-cases)
 
-**[Download index.html](https://raw.githubusercontent.com/4Raisan/decision-model-benchmarks/main/index.html)**, save it as `index.html`, then open it in a browser. The interactive dashboard works locally without an API key.
+**[Open the live dashboard](https://4raisan.github.io/Decision-Model-Benchmarks/)** · **[Download index.html](https://raw.githubusercontent.com/4Raisan/decision-model-benchmarks/main/index.html)**, save it as `index.html`, then open it in a browser. The interactive dashboard works locally without an API key.
 
 ## Dashboard preview
 
