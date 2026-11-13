@@ -8,6 +8,8 @@ Compare decision models on task routing and Windows UI choices using scenarios d
 
 **[Download index.html](https://raw.githubusercontent.com/4Raisan/decision-model-benchmarks/main/index.html)**, save it as `index.html`, then open it in a browser. The interactive dashboard works locally without an API key.
 
+## Dashboard preview
+
 [![Round 3 comparison graph plotting response time against accuracy](output/playwright/comparison-graphs.png)](output/playwright/comparison-graphs.png)
 
 ## Benchmark method
