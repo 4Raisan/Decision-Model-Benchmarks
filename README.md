@@ -154,3 +154,7 @@ The expanded suite contains 50 distinct cases, with 26 routing and 24 GUI checks
 ## Pricing sources
 
 Prices change. Check [Vercel AI Gateway](https://vercel.com/ai-gateway/models?modality=decision), [Inception](https://www.inceptionlabs.ai/), [SubQ](https://docs.subq.ai/using-the-api/models/), [Experiential](https://platform.experientiallabs.ai/), and [Celeris](https://celeris.ai/) for current rates. The interactive report lists provider information for each model.
+
+## License
+
+This repository is licensed under the [MIT License](LICENSE).
