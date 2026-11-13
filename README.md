@@ -28,7 +28,7 @@ The [pinned JEAN benchmark sources](https://github.com/4Raisan/J.E.A.N./tree/c16
 
 ## Benchmark Round 1
 
-| Model | Routing | GUI | Overall | Median response |
+| Model | Routing | GUI | Overall | Median response (s) |
 |---|---:|---:|---:|---:|
 | Mammoth-1 | 7/7 | 7/7 | 14/14 · 100% | 0.71 |
 | Mercury Decide | 7/7 | 7/7 | 14/14 · 100% | 0.70 |
@@ -47,7 +47,7 @@ The [pinned JEAN benchmark sources](https://github.com/4Raisan/J.E.A.N./tree/c16
 
 ## Benchmark Round 2
 
-| Model | Routing | GUI | Overall | Median response |
+| Model | Routing | GUI | Overall | Median response (s) |
 |---|---:|---:|---:|---:|
 | Perplexity Decider Flash v1.2 | 7/7 | 6/7 | 13/14 · 93% | 0.61 |
 | Mercury Decide | 7/7 | 7/7 | 14/14 · 100% | 1.16 |
@@ -63,13 +63,15 @@ The [pinned JEAN benchmark sources](https://github.com/4Raisan/J.E.A.N./tree/c16
 
 ## Benchmark Round 3
 
+Liquid d1-Ultra and Drex Max v1.1 each scored 50/50 on the expanded suite, averaging 0.85 s and 0.96 s per response. Mercury Decide had the fastest mean among the expanded-suite runs at 0.65 s, with 48/50 correct.
+
 The eight combined rows report mean API response time across 50 distinct cases. Elephant-1 and Mammoth-1 retain their historical results from two passes of the earlier 25 cases, with median API response times.
 
 | Model | Routing | GUI | Overall | Response time |
 |---|---:|---:|---:|---:|
 | Mercury Decide | 25/26 | 23/24 | 48/50 · 96% | 0.65 s |
-| Mammoth-1 | 22/26 | 24/24 | 46/50 · 92% | 0.64 s |
-| Elephant-1 | 24/26 | 24/24 | 48/50 · 96% | 0.63 s |
+| Mammoth-1 (25 cases × 2) | 22/26 | 24/24 | 46/50 · 92% | 0.64 s (median) |
+| Elephant-1 (25 cases × 2) | 24/26 | 24/24 | 48/50 · 96% | 0.63 s (median) |
 | Perplexity Decider v1.2 | 25/26 | 24/24 | 49/50 · 98% | 0.77 s |
 | Jev-1.14.0 | 26/26 | 23/24 | 49/50 · 98% | 0.69 s |
 | Drex Max v1.1 | 26/26 | 24/24 | 50/50 · 100% | 0.96 s |
