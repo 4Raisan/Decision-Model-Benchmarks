@@ -24,7 +24,17 @@ The benchmarks were run on **12 November 2026** using provider free tiers, welco
 
 Rounds 1 and 2 report median API response times. Round 3 reports means for the eight combined rows and medians for the two historical rows. Timing excludes pacing and cooldowns. GUI cases use saved control lists and simulated Windows states. The earlier CSS routing case leaves Claude Code's effort unspecified.
 
-The [pinned JEAN benchmark sources](https://github.com/4Raisan/J.E.A.N./tree/c1650b055e64dde7055b9bf6d45d74331bf0e33c/tools/decision-bench) include the case sets and available runners.
+## Reproduce a benchmark run
+
+Install Python 3 and check out JEAN at commit `c1650b055e64dde7055b9bf6d45d74331bf0e33c`. Set `INCEPTION_API_KEY` in your environment, then run from the JEAN root in Windows Command Prompt:
+
+```bat
+py -3 -B tools\decision-bench\benchmark_mercury.py --model mercury-decide --suite both --output "%TEMP%\jean-mercury-decide-results.json"
+```
+
+This sends one request per case for the original 14-case suite and writes per-case results to the JSON file. A case is correct when the selected answer matches the expected option.
+
+For the expanded suite, see the [pinned JEAN cases and runners](https://github.com/4Raisan/J.E.A.N./tree/c1650b055e64dde7055b9bf6d45d74331bf0e33c/tools/decision-bench) and the [published practical-suite results and error examples](https://github.com/4Raisan/J.E.A.N./blob/c1650b055e64dde7055b9bf6d45d74331bf0e33c/tools/decision-bench/jean-practical-25-results.md).
 
 ## Benchmark Round 1
 
