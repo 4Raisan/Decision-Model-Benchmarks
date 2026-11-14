@@ -1,12 +1,22 @@
-# Decision Model Benchmarks
+<h1 align="center">Decision Model Benchmarks</h1>
 
-Compare decision models on task routing and Windows UI choices using scenarios drawn from JEAN.
+<p align="center">
+  Compare decision models on task routing and Windows UI choices using scenarios drawn from JEAN.
+</p>
 
-[![Research date 12 November 2026](https://img.shields.io/badge/Research%20date-12%20Nov%202026-147e82)](#benchmark-method)
-[![Benchmark access: free and promotional](https://img.shields.io/badge/Benchmark%20access-Free%20and%20promotional-287547)](#benchmark-method)
-[![Expanded suite: 50 distinct cases](https://img.shields.io/badge/Expanded%20suite-50%20distinct%20cases-315da6)](#test-cases)
+<p align="center">
+  <a href="#benchmark-method"><img src="https://img.shields.io/badge/Run%20date-12%20Nov%202026-6D28D9?style=flat-square&amp;labelColor=24163D" alt="Run date 12 November 2026"></a>
+  <a href="#benchmark-method"><img src="https://img.shields.io/badge/Access-Free%20%26%20promotional-BE185D?style=flat-square&amp;labelColor=42162B" alt="Benchmark access used free and promotional credits"></a>
+  <a href="#test-cases"><img src="https://img.shields.io/badge/Expanded%20suite-50%20distinct%20cases-1D4ED8?style=flat-square&amp;labelColor=14274A" alt="Expanded suite of 50 distinct cases"></a>
+</p>
 
-**[Open the live dashboard](https://4raisan.github.io/Decision-Model-Benchmarks/)** · **[Download index.html](https://raw.githubusercontent.com/4Raisan/decision-model-benchmarks/main/index.html)**, save it as `index.html`, then open it in a browser. The interactive dashboard works locally without an API key.
+<p align="center">
+  <strong><a href="https://4raisan.github.io/Decision-Model-Benchmarks/">Open the live dashboard</a></strong>
+  &nbsp;·&nbsp;
+  <a href="https://raw.githubusercontent.com/4Raisan/Decision-Model-Benchmarks/main/index.html">Download index.html</a>
+  <br>
+  Save the download as <code>index.html</code> and open it in a browser. No API key required.
+</p>
 
 ## Dashboard preview
 
